@@ -42,3 +42,20 @@ print(squares)
 # Create the list cubes using a list comprehension on the single_digits list. Each element of cubes should be an element of single_digits taken to the third power
 cubes = [num ** 3 for num in single_digits]
 print(cubes)
+#==============================================================================================
+
+
+#==============================================================================================
+odds = list(range(1,20,2))
+for value in odds:
+  print(value)
+# creating a list of multiple of 3 from 3 to 30 
+threes = [value for value in range(1,31) if value % 3 == 0]
+# printing each value on that list
+for value in threes:
+  print(value)
+# creatinh a list with list comprenhension of the first 10 cubes
+cubes = [value ** 3 for value in range(1,11)]
+# using a for loop to print the values
+for value in cubes:
+  print(value)
