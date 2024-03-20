@@ -85,3 +85,28 @@ places_to_visit.sort(reverse= True)
 print(places_to_visit)
 # checking the len of a list
 print(len(places_to_visit))
+#==============================================================================================
+
+
+#==============================================================================================
+slice_practice = ['lana', 'petra', 'tinder', 'mouse', 'chili', 'pandora']
+# to slice the first three items in the list
+print('the first three items in the list are:', slice_practice[:3])
+# to slice the two items in the middle
+print('two items from the middle', slice_practice[2:4])
+# the slice the last three items in the list
+print('the last three items are', slice_practice[-3:])
+#to make a copy of a list 
+practice_copy = slice_practice[:]
+#adding something to the original list
+slice_practice.append('Tico')
+#adding something to the copy list
+practice_copy.append('bucky')
+#prove that i have different lists
+print('my pets names are:')
+for pet in slice_practice:
+  print(pet)
+print('\nthe copy list has these pets')
+for copy in practice_copy:
+  print(copy)
+
