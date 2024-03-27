@@ -10,3 +10,20 @@ spread["future"] = tarot.pop(10)
 # iterating through the items in the spread
 for key, value in spread.items():
   print("Your "+ key + " is the " + value + " card.")
+
+#==============================================================================================
+
+
+#==============================================================================================
+  
+major_rivers = {'Amazon': 'Brazil', 'Nile': 'Egypt', 'Yangtze': 'China'}
+
+for river, country in major_rivers.items():
+  print(f"The {river} runs through {country}")
+
+for river in major_rivers.keys():
+  print(river)
+
+for country in major_rivers.values():
+  print(country)
+
